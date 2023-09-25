@@ -30,3 +30,18 @@ generated/
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+# Go
+*.exe
+*.test
+*.prof
+/bin/
+/pkg/
+/vendor/
+/_test/
+
+# Buffalo
+/bin/
+/dist/
+/node_modules/
+/.sass-cache/
+
