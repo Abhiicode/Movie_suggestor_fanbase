@@ -1,0 +1,7 @@
+create_table("users") {
+    t.Column("id","integer",{primary:true})
+    t.Column("name","string")
+    t.Column("email","string")
+    t.Column("password","string")
+    t.Column("type","integer")
+}

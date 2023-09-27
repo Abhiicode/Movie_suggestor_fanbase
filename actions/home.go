@@ -11,3 +11,7 @@ import (
 func HomeHandler(c buffalo.Context) error {
 	return c.Render(http.StatusOK, r.HTML("home/index.plush.html"))
 }
+
+func Now(c buffalo.Context) error {
+	return c.Render(http.StatusContinue, r.String("Now route hit"))
+}
